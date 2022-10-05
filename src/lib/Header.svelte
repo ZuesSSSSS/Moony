@@ -1,16 +1,23 @@
 <svelte:head>
-	<link rel='stylesheet' href='./header.css'>
+	<link rel="stylesheet" href="./header.css">
 </svelte:head>
 
-<div>
+<div id='header'>
     <a id='logo'>Moony</a>
-    <nav class='header'>
+    <nav id='header-nav'>
         <ul>
             <li>
                 <a href='/' class='secondary'>Home</a>
             </li>
             <li>
-            </li>
+                <a href='/'>Calculator</a>
+            </li> 
+            <li>
+                <a href='/'>Formulas</a>
+            </li> 
+            <li>
+                <a href='/'>Definitions</a>
+            </li> 
         </ul>
     </nav>
 </div>

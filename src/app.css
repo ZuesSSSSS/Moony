@@ -1,6 +1,5 @@
 * {
     color: white;
-    font-size: 1.35em;
     text-decoration: none;
 }
 body {
@@ -8,8 +7,4 @@ body {
 }
 li {
     list-style: none;
-}
-
-.secondary {
-    color   : #99FFD1;
 }

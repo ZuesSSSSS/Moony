@@ -1,6 +1,18 @@
-#logo {
-    color: #50FFB1;
+:root {
+    --main: #50FFB1;
+    --secondary: #99FFD1;
+    --secondary-main: #131516;
 }
+
 .header {
     display: grid;
+    grid-auto-flow: column;
 }
+#logo {
+    /* color: var(--secondary); */
+    color: red;
+    font-size: 55px;
+}
+/* #header-nav {
+
+} */
